@@ -1,0 +1,41 @@
+h1 {
+    font-size: $ts-41;
+    margin: 0 0 $md 0;
+}
+
+h2 {
+    font-size: $ts-29;
+    margin: 0 0 $md 0;
+}
+
+h3 {
+    font-size: $ts-23;
+    margin: 0 0 $md 0;
+}
+
+h4 {
+    font-size: $ts-23;
+    margin: 0 0 $md 0;
+}
+
+h5 {
+    font-size: $ts-20;
+    margin: 0 0 $md 0;
+}
+
+h6 {
+    font-size: $ts-18;
+    margin: 0 0 $md 0;
+    font-weight: 500;
+}
+
+p,
+li {
+    max-width: 768px;
+    font-size: $ts-18;
+    margin: 0 0 $md 0;
+}
+
+.bold {
+    font-weight: 500;
+}

@@ -1,0 +1,23 @@
+.project {
+    background: #F2F2F2;
+    padding: $xl;
+    margin-bottom: $xxl;
+    
+    &__content {
+        margin-bottom: $md;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .project__content {
+        display: flex;
+
+        &__title {
+            flex-basis: 33%;
+        }
+    
+        &__description {
+            flex-basis: 67%;
+        }
+    }
+}

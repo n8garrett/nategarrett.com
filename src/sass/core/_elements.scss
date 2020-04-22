@@ -1,0 +1,21 @@
+body {
+    font-family: $font-family;
+    line-height: $base-line-height;
+}
+
+img {
+    max-width: 100%;
+    height: auto; }
+
+#main {
+    margin-bottom: $xxs;
+}
+
+a {
+    color: $color-blue;
+    text-decoration: underline;
+
+    &:focus {
+        outline: 2px solid $color-blue;
+    }
+}

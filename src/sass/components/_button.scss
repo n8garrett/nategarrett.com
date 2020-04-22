@@ -1,0 +1,21 @@
+.button {
+    padding: $xs;
+    background: $color-dark-blue;
+    border: 3px solid $color-dark-blue;
+    border-radius: 4px;
+    color: $color-white;
+    text-decoration: none;
+    font-weight: bold;
+
+    &:focus {
+        outline: none;
+        box-shadow: 0 0 0 .1rem $color-white, 
+              0 0 0 .2rem $color-dark-blue;
+    }
+}
+
+.button:hover {
+    background: $color-white;
+    color: $color-dark-blue;
+    transition: 0.3s;
+}

@@ -1,0 +1,14 @@
+.page-header {
+
+    padding: $xl 0;
+
+    &__headline {
+        font-size: $ts-46;
+        line-height: $heading-line-height;
+    }
+
+    &__summary {
+        max-width: 768px;
+        font-size: $ts-26;
+    }
+}

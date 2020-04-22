@@ -1,0 +1,45 @@
+//
+// Gloabal variables
+// 
+
+// base font family
+$font-family: 'Roboto', sans-serif;
+
+// font sizes
+$ts-12: .75rem;
+$ts-14: .875rem;
+$ts-16: 1rem;
+$ts-18: 1.125rem;
+$ts-20: 1.25rem;
+$ts-23: 1.4375rem;
+$ts-26: 1.625rem;
+$ts-29: 1.8125rem;
+$ts-32: 2rem;
+$ts-36: 2.25rem;
+$ts-41: 2.5625rem;
+$ts-46: 2.875rem;
+$ts-52: 3.25rem;
+
+// line heights
+$base-line-height: 1.5;
+$heading-line-height: 1;
+
+// spacing
+$spacing-unit: .5rem;        // 8px
+
+$xxs: $spacing-unit/2;       // 4px
+$xs: $spacing-unit;          // 8px
+$sm: $spacing-unit * 2;      // 16px Base
+$md: $spacing-unit * 3;      // 24px
+$lg: $spacing-unit * 4;      // 32px
+$xl: $spacing-unit * 5;      // 40px
+$xxl: $spacing-unit * 8;     // 64px
+
+// Standard shadow(s)
+$shadow-base: 0 1px 3px 2px rgba(0, 0, 0, .07);
+
+// colors
+$color-dark-blue: #333;
+$color-blue: #006298;
+$color-black: #333;
+$color-white: #fff;
