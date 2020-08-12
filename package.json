@@ -4,7 +4,7 @@
   "description": "Personal website",
   "main": "index.js",
   "scripts": {
-    "build": "npx npm-run-all -s clean eleventy sass:build",
+    "build": "set ELEVENTY_ENV=prod&& npx npm-run-all -s clean eleventy sass:build",
     "clean": "npx rimraf _site",
     "eleventy": "npx eleventy",
     "eleventy:serve": "npx eleventy --serve",
