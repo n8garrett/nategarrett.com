@@ -1,7 +1,7 @@
 ---
 layout: layout.njk
 title: About
-description: Nate Garrett is a UX developer based in Indianapolis, IN.
+description: Nate Garrett is a web designer and developer based in Indianapolis, IN.
 feature_photo: /img/family-hike-2x1.jpg
 feature_photo_alt: Hiking in Hocking Hills State Park
 container_size: small
@@ -9,22 +9,24 @@ container_size: small
 
 # About
 
-I have 15 years of experience creating websites for higher education, nonprofits, and individuals. I currently work for the [IU School of Informatics and Computing at IUPUI](https://soic.iupui.edu) as a web developer.
+My enjoyment in web development comes from my interest in business, design, and technology. Working as a web developer allows me to get to know the business, it’s goals, and use my design and technical skills to develop user-friendly solutions.
 
-In my role at IUPUI, I enjoy living on the edge between user experience design, especially my interest in information architecture and development (front-end, PHP/WordPress).
+Currently I serve as a web developer at the [IU School of Informatics and Computing at IUPUI](https://soic.iupui.edu).
 
 ## Where it all started
 
-My interest in web development dates back to high school where I taught myself HTML and Perl. Using my newfound skills, I managed a pro wrestling website that generated over 1,000 visits per day while in high school.
+I started building websites in high school, teaching myself HTML by looking at the source code of other websites. Using my newfound skills, I managed a pro wrestling website that generated over 1,000 visits per day while in high school.
 
-After high school, I earned a [Bachelor of Science in Informatics](https://informatics.iupui.edu) and a [Masters in Information Science](https://ils.indiana.edu), both from Indiana University.
+After high school, I earned a [Bachelor of Science in Informatics](https://informatics.indiana.edu) and a [Masters in Information Science](https://ils.indiana.edu), both from Indiana University.
 
 ## Service and Sports
 
-It’s not all work and no play. I enjoy running and playing softball and basketball.
+It's not all work and no play. I enjoy staying active by running, hiking, and playing softball and basketball.
 
-I am active in many youth sports leagues where I coach baseball, basketball, and soccer. I also serve on the board of directors for the Franklin Township Rookie League and as a travel baseball coach for the Franklin Township Lightning.
+Playing sports was a huge part of my childhood and I enjoy helping provide kids the same fun opportunities I had as a kid. I coach baseball for the [Franklin Township Lightning](https://www.facebook.com/FTLightningBaseball/). I am also certified by Driveline in Youth Baseball Development.
 
-Outside of sports, I contribute my time and talents to [hunger ministries](https://rlcindy.org/hunger/) and lead the Web Team at Resurrection Lutheran Church.
+Previously I have coached in local basketball and soccer leagues in Franklin Township and coached and served on the board of directors for the [Franklin Township Rookie League](http://ftrlbaseball.com).
+
+In addition to sports, I'm active in the [hunger ministries](https://rlcindy.org/hunger/) and lead the Web Team at Resurrection Lutheran Church.
 
 </div>
