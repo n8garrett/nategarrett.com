@@ -2,6 +2,7 @@
 layout: layout.njk
 title: Portfolio
 description: Portfolio of web development projects.
+change_freq: monthly
 container_size: small
 ---
 

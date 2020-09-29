@@ -2,6 +2,7 @@
 layout: layout.njk
 title: About
 description: Nate Garrett is a web designer and developer based in Indianapolis, IN.
+change_freq: monthly
 feature_photo: /img/family-hike-2x1.jpg
 feature_photo_alt: Hiking in Hocking Hills State Park
 container_size: small
