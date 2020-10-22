@@ -1,6 +1,7 @@
 body {
     font-family: $font-family;
     line-height: $base-line-height;
+    border-top: 5px solid $color-orange;
 }
 
 img {
@@ -12,7 +13,7 @@ img {
 }
 
 a {
-    color: $color-blue;
+    color: $color-orange;
     text-decoration: underline;
 
     &:focus {
