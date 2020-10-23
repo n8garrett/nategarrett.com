@@ -4,6 +4,7 @@
         "project_type": "Website",
         "description": "A website to promote AI research at IUPUI.",
         "url": "https://iai.iupui.edu",
+        "img": "iai-institute.jpg",
         "tags": ["IA", "UI design", "Front-end", "Eleventy"]
     },
     {
@@ -11,24 +12,31 @@
         "project_type": "Web app",
         "description": "I designed and developed a custom IT inventory web app for the SOIC IT staff to manage equipment and track which users have administrative access.",
         "url": "",
+        "img": "soic-inventory.jpg",
         "tags": ["Front-end", "Back-end", "UI design", "UX"]
     },
     {
         "title": "iDEW",
         "project_type": "Website",
         "description": "A website designed to promote the iDEW program to educators and industry partners.",
+        "url": "https://soic.iupui.edu/idew/",
+        "img": "idew.jpg",
         "tags": ["IA", "UI design", "Front-end", "Eleventy"]
     },
     {
         "title": "Resurrection Lutheran Church",
         "project_type": "Website",
         "description": "A website designed to promote the church to prospective members and inform current members of events and ministry opportunities.",
+        "url": "https://rlcindy.org",
+        "img": "rlc.jpg",
         "tags": ["IA", "UI design", "Front-end", "WordPress"]
     },
     {
         "title": "LiFT Scholars",
         "project_type": "Website",
         "description": "I designed and developed a website to attract more students and industry partners.",
+        "url": "https://liftscholars.soic.iupui.edu",
+        "img": "lift.jpg",
         "tags": ["IA", "UI design", "Front-end"]
     }
 ]
