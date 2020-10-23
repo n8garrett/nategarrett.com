@@ -1,0 +1,43 @@
+---
+title: Portfolio
+description: Portfolio of web development projects.
+change_freq: monthly
+container_size: large
+---
+{% extends "layout.njk" %}
+
+
+{% block content %}
+<div class="container container--large">
+    <h1>Portfolio</h1>
+</div>
+
+{% for p in projects %}
+    <div class="section">
+        <div class="container container--large">
+            <div class="grid halves">
+                <div class="grid__item">
+                    <img src="http://www.fillmurray.com/768/512" alt="" />
+                </div>
+
+                <div class="grid__item">
+                    <p class="eyebrow">{{ p.project_type }}</p>
+                    <p class="project__title">{{ p.title }}</p>
+                    <p class="project__description">{{ p.description }}</p>
+                    
+                    {% if p.url != "" %}
+                        <p><a href="{{ p.url }}">View project</a></p>
+                    {% endif %}
+                    
+                    <ul class="tags">
+                        {% for tag in p.tags %}
+                            <li class="tag">{{ tag }}</li>
+                        {% endfor %}
+                    </ul>    
+                </div>
+            </div>
+        </div>
+    </div>
+{% endfor %}
+
+{% endblock %}

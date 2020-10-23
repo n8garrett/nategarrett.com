@@ -21,3 +21,34 @@
         }
     }
 }
+
+.tags {
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+
+.tag:not(:last-child) {
+    margin-right: $sm;
+}
+
+.tag {
+    padding: $xxs $xs;
+    font-size: $ts-14;
+    background: $color-navy;
+    color: $color-white;
+    border-radius: 10px;
+}
+
+.eyebrow {
+    margin: 0;
+    color: $color-orange;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: $ts-16;
+}
+
+.project__title {
+    font-size: $ts-26;
+    margin-bottom: $sm;
+}
