@@ -51,10 +51,11 @@
         </nav>
     </header>
     <main id="main" role="main">
+        {% if feature_photo %}
         <div class="feature-photo container container--large">
             <img src="{{ feature_photo }}" alt="{{ feature_photo_alt }}" />
         </div>
-
+        {% endif %}
         {% block content %}
         {{ content | safe }}
         {% endblock %}

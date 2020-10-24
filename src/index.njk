@@ -1,0 +1,73 @@
+---
+description: Nate Garrett is a web designer and developer based in Indianapolis, IN.
+change_freq: monthly
+container_size: large
+---
+{% extends "layout.njk" %}
+
+{% block content %}
+
+<div class="section section--navy" style="background: #002D62; color: #fff !important;">
+    <div class="container container--large">
+        <div class="page-header">
+            <h2 class="page-header__headline">Web designer + developer</h2>
+            <p class="page-header__summary">As a web designer/developer, I bridge the gap between design, code, the business, and the user.</p>
+            <p><a href="/about/" class="action">
+                <span class="action__text">More about me</span>
+                <span class="action__icon action__icon--right">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 0 20 20" width="20">
+                        <path d="M10.996 5.419c0.502 0.49 5.402 5.634 5.402 5.634 0.268 0.263 0.402 0.605 0.402 0.947s-0.134 0.684-0.402 0.944c0 0-4.901 5.147-5.402 5.634-0.502 0.49-1.404 0.523-1.938 0-0.535-0.521-0.577-1.249 0-1.889l4.496-4.69-4.496-4.69c-0.577-0.64-0.535-1.369 0-1.891 0.534-0.523 1.436-0.491 1.938 0z" fill="currentColor"></path>
+                    </svg>
+                </span>
+            </a></p>
+        </div>
+    </div>
+</div>
+
+<div class="section">
+    <div class="container container--large">
+
+        <h2>Recent work</h2>
+        {% set project_id = 2 %}
+        <div class="grid halves">
+            <div class="grid__item">
+                <img src="/img/{{ projects[project_id].img }}" alt="{{ projects[project_id].title }}" class="project__photo" />
+            </div>
+
+            <div class="grid__item">
+                <p class="eyebrow">{{ projects[project_id].project_type }}</p>
+                <p class="project__title">{{ projects[project_id].title }}</p>
+                <p class="project__description">{{ projects[project_id].description }}</p>
+                
+                {% if projects[project_id].url != "" %}
+                    <p><a href="{{ projects[project_id].url }}" class="action">
+                        <span class="action__text">View project</span>
+                        <span class="action__icon action__icon--right">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 0 20 20" width="20">
+                                <path d="M10.996 5.419c0.502 0.49 5.402 5.634 5.402 5.634 0.268 0.263 0.402 0.605 0.402 0.947s-0.134 0.684-0.402 0.944c0 0-4.901 5.147-5.402 5.634-0.502 0.49-1.404 0.523-1.938 0-0.535-0.521-0.577-1.249 0-1.889l4.496-4.69-4.496-4.69c-0.577-0.64-0.535-1.369 0-1.891 0.534-0.523 1.436-0.491 1.938 0z" fill="currentColor"></path>
+                            </svg>
+                        </span>
+                    </a></p>
+                {% endif %}
+                
+                <ul class="tags">
+                    {% for tag in projects[project_id].tags %}
+                        <li class="tag">{{ tag }}</li>
+                    {% endfor %}
+                </ul>    
+            </div>
+        </div>
+        <p style="text-align: center; margin-top: 24px;">
+            <a href="/portfolio/" class="action">
+                <span class="action__text">View more projects</span>
+                <span class="action__icon action__icon--right">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 0 20 20" width="20">
+                        <path d="M10.996 5.419c0.502 0.49 5.402 5.634 5.402 5.634 0.268 0.263 0.402 0.605 0.402 0.947s-0.134 0.684-0.402 0.944c0 0-4.901 5.147-5.402 5.634-0.502 0.49-1.404 0.523-1.938 0-0.535-0.521-0.577-1.249 0-1.889l4.496-4.69-4.496-4.69c-0.577-0.64-0.535-1.369 0-1.891 0.534-0.523 1.436-0.491 1.938 0z" fill="currentColor"></path>
+                    </svg>
+                </span>
+            </a>
+        </p>
+    </div>
+</div>
+
+{% endblock %}
