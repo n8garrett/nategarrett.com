@@ -16,6 +16,14 @@
         "tags": ["Front-end", "Back-end", "UI design", "UX"]
     },
     {
+        "title": "Junko Ueno Garrett",
+        "project_type": "Website",
+        "description": "I designed and developed a custom IT inventory web app for the SOIC IT staff to manage equipment and track which users have administrative access.",
+        "url": "https://junkopiano.com",
+        "img": "junko-piano.jpg",
+        "tags": ["Front-end", "UI Design", "WordPress"]
+    },
+    {
         "title": "iDEW",
         "project_type": "Website",
         "description": "A website designed to promote the iDEW program to educators and industry partners.",
