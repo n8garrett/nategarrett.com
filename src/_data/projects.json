@@ -18,7 +18,7 @@
     {
         "title": "Junko Ueno Garrett",
         "project_type": "Website",
-        "description": "I designed and developed a custom IT inventory web app for the SOIC IT staff to manage equipment and track which users have administrative access.",
+        "description": "A website to promote a Los Angeles pianist.",
         "url": "https://junkopiano.com",
         "img": "junko-piano.jpg",
         "tags": ["Front-end", "UI Design", "WordPress"]
