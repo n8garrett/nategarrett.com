@@ -51,9 +51,11 @@
         </nav>
     </header>
     <main id="main" role="main">
-        <div class="container container--large section">
+        <div class="page-header container container--large">
             <h1 class="page-header__headline">{{ title }}</h1>
             <p class="page-header__summary">{{ description }}</p>
+        </div>
+        <div class="container container--large">
             {{ content | safe }}
         </div>
     </main>
