@@ -1,0 +1,21 @@
+<header class="header container container--large" role="banner">
+    <p class="site-title">
+        <a class="site-title-link" href="/">
+            <span class="site-title__name">nate garrett</span>
+        </a>
+    </p>
+
+    <nav class="main-menu">
+        <ul class="main-menu__items">
+            <li class="main-menu__item">
+                <a href="/about/" class="main-menu__link" {% if page.url == '/about/' %} aria-current="true"{% endif %}>about</a>
+            </li>
+            <li class="main-menu__item">
+                <a href="/blog/" class="main-menu__link" {% if page.url == '/blog/' or collections.post %} aria-current="true"{% endif %}>blog</a>
+            </li>
+            <li class="main-menu__item">
+                <a href="/portfolio/" class="main-menu__link" {% if page.url == '/portfolio/' %} aria-current="true"{% endif %}>portfolio</a>
+            </li>    
+        </ul>
+    </nav>
+</header>
