@@ -8,17 +8,9 @@
     }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 767px) {
     .project__content {
-        display: flex;
-
-        &__title {
-            flex-basis: 33%;
-        }
-    
-        &__description {
-            flex-basis: 67%;
-        }
+        margin-top: $lg;
     }
 }
 
