@@ -24,6 +24,16 @@ container_size: large
     </div>
 </div>
 
+<div class="container container--large section">
+    <h2>Recent Posts</h2>
+    {%- for post in collections.post -%}
+        <div class="feed">
+            <a class="feed__title" href="{{ post.url }}">{{ post.data.title }}</a>
+            <span class="feed__date">{{ post.data.date.toDateString() }}</span>
+        </div>
+    {%- endfor -%}
+</div>
+
 <div class="section">
     <div class="container container--large">
 
