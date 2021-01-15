@@ -1,5 +1,5 @@
 ---
-description: Nate Garrett is a web designer and developer based in Indianapolis, IN.
+description: Nate Garrett is a web developer and digital marketer based in Indianapolis, IN.
 change_freq: monthly
 container_size: large
 ---
@@ -7,12 +7,12 @@ container_size: large
 
 {% block content %}
 
-<div class="section section--navy" style="background: #002D62; color: #fff !important;">
+<div class="section bg-navy bg-dark">
     <div class="container container--large">
         <div class="page-header">
-            <h2 class="page-header__headline">Web designer + developer</h2>
-            <p class="page-header__summary">As a web designer/developer, I bridge the gap between design, code, the business, and the user.</p>
-            <p><a href="/about/" class="action">
+            <h2 class="page-header__headline color-white">Web developer + digital marketing</h2>
+            <p class="page-header__summary color-white">As a web developer and digital marketer, I bridge the gap between design, code, the business, and the user.</p>
+            <p><a href="/about/" class="action color-white">
                 <span class="action__text">More about me</span>
                 <span class="action__icon action__icon--right">
                     <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 0 20 20" width="20">
@@ -22,6 +22,16 @@ container_size: large
             </a></p>
         </div>
     </div>
+</div>
+
+<div class="container container--large section">
+    <h2>Recent Posts</h2>
+    {%- for post in collections.post -%}
+        <div class="feed">
+            <a class="feed__title" href="{{ post.url }}">{{ post.data.title }}</a>
+            <span class="feed__date">{{ post.data.date.toDateString() }}</span>
+        </div>
+    {%- endfor -%}
 </div>
 
 <div class="section">

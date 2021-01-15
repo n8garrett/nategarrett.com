@@ -13,14 +13,13 @@
     <a href="#main" class="skip-link">Skip to main content</a>
     {% include "partials/_header.njk" %}
     <main id="main" role="main">
-        {% if feature_photo %}
-        <div class="feature-photo container container--large">
-            <img src="{{ feature_photo }}" alt="{{ feature_photo_alt }}" />
+        <div class="page-header container container--large">
+            <h1 class="page-header__headline">{{ title }}</h1>
+            <p class="page-header__summary">{{ description }}</p>
         </div>
-        {% endif %}
-        {% block content %}
-        {{ content | safe }}
-        {% endblock %}
+        <div class="container container--large">
+            {{ content | safe }}
+        </div>
     </main>
         
     {% include "partials/_footer.njk" %}

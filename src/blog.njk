@@ -1,0 +1,25 @@
+---
+title: Blog
+description: Blog posts on web and digital marketing
+change_freq: monthly
+container_size: large
+---
+{% extends "layout.njk" %}
+
+{% block content %}
+
+<div class="section">
+    <div class="container container--large">
+
+        <h1>{{ title }}</h1>
+        
+        {%- for post in collections.post -%}
+            <div class="feed">
+                <a class="feed__title" href="{{ post.url }}">{{ post.data.title }}</a>
+                <span class="feed__date">{{ post.date.toDateString() }}</span>
+            </div>
+        {%- endfor -%}
+    </div>
+</div>
+
+{% endblock %}

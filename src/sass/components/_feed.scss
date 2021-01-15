@@ -1,0 +1,13 @@
+.feed {
+    margin-bottom: $lg;
+}
+
+.feed__title {
+    font-size: $ts-20;
+    color: $color-black;
+}
+
+.feed__date {
+    display: block;
+    color: $color-gray-dark;
+}
