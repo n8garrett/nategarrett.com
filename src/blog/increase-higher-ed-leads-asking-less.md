@@ -1,7 +1,7 @@
 ---
 title: Increase higher ed leads by asking less
 description: A case study in how the School of Informatics and Computing increased our prospective student leads by asking for less information.
-date: 2021-01-12
+date: 2021-01-16
 tags: post
 layout: post.njk
 ---

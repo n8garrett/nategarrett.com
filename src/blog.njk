@@ -16,7 +16,7 @@ container_size: large
         {%- for post in collections.post -%}
             <div class="feed">
                 <a class="feed__title" href="{{ post.url }}">{{ post.data.title }}</a>
-                <span class="feed__date">{{ post.data.date.toDateString() }}</span>
+                <span class="feed__date">{{ post.date.toDateString() }}</span>
             </div>
         {%- endfor -%}
     </div>
