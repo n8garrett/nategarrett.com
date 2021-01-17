@@ -14,7 +14,8 @@
 }
 
 .section {
-  padding: $xxl 0;
+  padding-top: $xxl;
+  padding-bottom: $xxl;
 }
 
 @media only screen and (min-width: 768px) {
