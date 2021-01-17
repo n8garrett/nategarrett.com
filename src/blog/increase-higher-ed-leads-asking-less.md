@@ -6,9 +6,9 @@ tags: post
 layout: post.njk
 ---
 
-At the School of Informatics and Computing, we were trying to find ways to increase the number of leads from prospective high school students. We had doubled the number of lead forms submitted on our website (which is obviously very good), but 3 out of every 4 were from transfer students. We also had a very high number of graduate student leads. We were struggling to figure out why transfer and prospective graduate students were more willing to connect with us.
+At the School of Informatics and Computing, we were trying to find ways to increase the number of leads from prospective high school students. We had doubled the number of lead forms submitted on our website (which is obviously very good), but 3 out of every 4 were from transfer students. We were struggling to figure out why transfer students were more willing to connect with us.
 
-We began to wonder if the number of questions being asked on the form was a barrier for high school students. While nobody has much patience for filling out a form, we thought older students might be more inclined to take the time.
+We began to wonder if the number of questions being asked was a barrier for high school students. While nobody has much patience for filling out a form, we thought older students might be more inclined to take the time.
 
 Our old undergraduate lead form had 7 fields:
 - Name
@@ -29,8 +29,8 @@ We shortened the form to contain only 3 fields for prospective freshmen and 4 fo
 - Are you a transfer student?
 - If the student is a transfer student, they are shown a message field to ask a question
 
-The form automatically detects which degree page the form is being submitted from and passes the degree name along with the form data to our admissions staff. We left the message field for transfer students only because the high school students rarely used it, while transfer students generally have specific questions about their transfer process. The fields about which school they attend and what year they are can be gathered later when they attend an event or engage with our staff in some other way.
+The form automatically detects which degree page the form is being submitted from and passes the degree name along with the form data to our admissions staff. We left the message field for transfer students because the high school students rarely used it, while transfer students generally have specific questions about their transfer process. The fields about which school they attend and what year they are can be gathered later when they attend an event or engage with our staff in some other way.
 
 ## Results
 
-Since we implemented this change in Fall 2020, we are seeing at least an equal number of high school and transfer student leads and one month we had twice as many high school leads and transfer leads.
+Since we implemented this change in Fall 2020, we are seeing at least an equal number of high school and transfer student leads and one month we had twice as many high school leads as transfer leads. If your school is struggling to generate a high number of leads, take a look at your form and see if you can find a way to shorten the form.
